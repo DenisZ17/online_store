@@ -1,9 +1,5 @@
 Запуск сервер -- npm run dev
 
-
-
-
-
 1. Создаем корневую папку, а в ней 2 папки client и сервер
 2. В терминале набираем --- cd server
     - чтобы перейти в данную папку
@@ -18,6 +14,7 @@
     --- npm install express pg pg-hstore sequelize cors dotenv
 5. Установим nodemon - чтобы автоматическить перезапускать сервер --- npm install -D nodemon
     - В файле package.json запишем скрипт, который будет запускать приложение в режиме разработки: для этого в поле scripts пишем команду "dev": "nodemon index.js"
+
 
 
 
